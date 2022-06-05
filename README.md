@@ -37,10 +37,6 @@
 > Alpahbot-Md adalah bot yang awalnya memakai base dari [Chikabot](https://github.com/rashidsiregar28/chikabot/blob/main/README.md), sekarang pindah base [Hisoka-Morou](https://github.com/DikaArdnt/Hisoka-Morou). Alphabot-Md is a bot whatsapp using a Baileys library.
 > Jika kamu menemukan semacam bug, harap untuk dimaklumi sementara
 
-## Bugs and Tester
-* Jika kamu menemukan bug jangan lupa buka Issues
-* Info Lebih Lanjut, Chat [owner-alpha](https://wa.me/62887435047326)
-
 # Requirements
 * [Node.js](https://nodejs.org/en/)
 * [Git](https://git-scm.com/downloads)
@@ -55,18 +51,11 @@ https://github.com/clhuang/heroku-buildpack-webp-binaries.git
 ```
 ## For Termux
 ```ts
-termux-setup-storage
 apt update && apt upgrade
-pkg install nodejs git ffmpeg libwebp imagemagick
+pkg install bash
 git clone https://github.com/zeeone-ofc/Alphabot-Md.git
 cd Alphabot-Md
-pkg install yarn
-yarn install
-npm i -g typescript
-tsc -p ./node_modules/@adiwajshing/baileys-md/
-rm -rf session.json
-rm -rf store.json
-npm start
+bash install.sh
 ```
 
 ## Edit file
